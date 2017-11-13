@@ -128,7 +128,7 @@ public class GameController implements Initializable {
 
 			String newName = tf_name.getText();
 			String newYear = tf_year.getText();
-			String newCompany = tf_year.getText();
+			String newCompany = tf_company.getText();
 
 			if (newName.equals("") || newYear.equals("") || newYear.length() != 4 || newCompany.equals(""))
 				return;
